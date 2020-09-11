@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  background: linear-gradient(272deg, #f871c9, #b351da, #97f5dd);
+  background-size: 600% 600%;
+  -webkit-animation: gradientAnimation 20s ease infinite;
+  -moz-animation: gradientAnimation 20s ease infinite;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@-moz-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 51%
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 200px;
+}
+
+.logo h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 42px;
+  color: #fffb0e;
+  -webkit-text-stroke: 1.5px #020102;
+  margin: 0;
+}
+
+.icon {
+  width: 128px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.App-header {
+  font-family: 'Shrikhand', cursive;
+  font-size: 48px;
+  font-weight: 500;
+  color: #e94ac6;
+  -webkit-text-stroke: 2px #320094;
+  text-shadow: 3px 3px 0 #f1ff6e, -1px -1px 0 #f1ff6e, 1px -1px 0 #f1ff6e, -1px 1px 0 #f1ff6e, 1px 1px 0 #f1ff6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 18px;
+}
+
+.App-header p {
+  margin-top: 0;
+  line-height: 1.125;
+}
+
+
+.contact-us {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 1px #f8a4eb, 15px 15px 1px 2px #000000;
+  width: 197px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h4 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  color: #5b3082;
+}
+
+input {
+  font-family: 'Fredoka One', cursive;
+  width: 100%;
+  font-size: 10pt;
+  line-height: 13pt;
+  font-family: 'Fjalla One';
+  margin-bottom: 25pt;
+  border: none;
+  border-bottom: 4px solid rgba(0, 0, 0, 1);
+  background: #f8f4e5;
+  min-width: 150px;
+  outline: none;
+  color: #5b3082;
+}
+
+input:focus {
+  border-bottom: 5px solid #e94ac6;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  line-height: 28pt;
+  padding: 0 20px;
+  background: #97f5dd;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #F02DC5;
+  color: rgb(46, 0, 77);
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+::selection {
+  background: #ffc8ff;
+}
+
+button img {
+  display: flex;
+  padding: inherit;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+button p {
+  display: contents;
+  font-size: 14px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 100;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.star {
+  width: 100px;
+  position: absolute;
+  top: 99%;
+  left: 75%;
+  transform: translate(-61%, -21%);
+}
+
+.curl {
+  width: 350px;
+  position: absolute;
+  top: 123%;
+  left: 75%;
+  transform: translate(-61%, -21%);
+}
+
+.waves {
+  width: 389px;
+  position: absolute;
+  top: -72%;
+  left: 9%;
+  transform: translate(-60%, -20%);
+}
+
+.heart {
+  width: 26px;
+  position: relative;
+  top: -7%;
+  left: 1%;
+}
+
+.polish {
+  width: 300px;
+  position: absolute;
+  top: 44%;
+  left: 18%;
+  transform: translate(-60%, -20%);
+}
+
+
+.folder {
+  width: 90px;
+  position: absolute;
+  top: -78%;
+  left: 91%;
+  transform: translate(-60%, -20%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Comfortaa', cursive;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .curl {
+    z-index: -10;
+    top: 56%;
+    left: 11%;
+  }
+
+  .contact-us {
+    max-width: 80px;
+  }
+
+  header p {
+    font-size: 39px;
+    padding-top: inherit;
+  }
+
+  .waves {
+    display: none;
+  }
+
+  .folder {
+    display: none;
+  }
+
+  .polish {
+    top: 179%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .waves {
+    top: -51%;
+    left: 6%;
+    z-index: -10;
+  }
+  .polish {
+    top: 150%;
+    left: 20%;
+  }
+  .curl {
+    top: 172%;
+    left: 85%;
+    width: 246px;
+  }
+
+  .folder {
+    top: -68%;
+    left: 91%;
+  }
+}
